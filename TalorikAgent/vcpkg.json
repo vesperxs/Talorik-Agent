@@ -1,0 +1,17 @@
+{
+    "name": "talorik-agent",
+    "version": "1.0.0",
+    "description": "A sophisticated C++ agent system for intelligent task execution and automation",
+    "homepage": "https://github.com/your-username/talorik-agent",
+    "dependencies": [
+        {
+            "name": "nlohmann-json",
+            "version>=": "3.11.0"
+        },
+        {
+            "name": "asio",
+            "version>=": "1.28.0"
+        }
+    ],
+    "builtin-baseline": "2024-01-16"
+} 

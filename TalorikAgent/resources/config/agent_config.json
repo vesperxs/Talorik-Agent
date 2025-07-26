@@ -1,0 +1,35 @@
+{
+    "system": {
+        "name": "TalorikAgent",
+        "version": "1.0.0",
+        "log_level": "INFO",
+        "log_file": "talorik_agent.log"
+    },
+    "agents": {
+        "max_agents": 10,
+        "heartbeat_interval": 30,
+        "default_timeout": 300
+    },
+    "network": {
+        "port": 8080,
+        "host": "localhost",
+        "max_connections": 100,
+        "timeout": 60
+    },
+    "tasks": {
+        "max_concurrent_tasks": 5,
+        "task_timeout": 600,
+        "retry_attempts": 3
+    },
+    "security": {
+        "enable_ssl": false,
+        "certificate_path": "",
+        "private_key_path": ""
+    },
+    "database": {
+        "type": "sqlite",
+        "path": "talorik_agent.db",
+        "backup_enabled": true,
+        "backup_interval": 3600
+    }
+} 
